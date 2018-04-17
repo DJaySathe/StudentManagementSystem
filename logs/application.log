@@ -1,0 +1,23 @@
+2018-04-17 12:41:53,862 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-4 - Creating Pool for datasource 'default'
+2018-04-17 12:41:54,802 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-4 - Database [default] connected at jdbc:mysql://localhost/playdb?characterEncoding=UTF-8
+2018-04-17 12:41:54,857 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-4 - application.conf @ file:/Users/dsathe/Documents/Independent%20Study/firstplayproject/target/scala-2.12/classes/application.conf: 9: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-17 12:41:58,351 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-4 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2018-04-17 12:41:58,913 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-04-17 12:41:58,933 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev)
+2018-04-17 12:42:40,529 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-2 - [CSRF] Check failed because no or invalid token found in body for /students/create
+2018-04-17 12:42:40,533 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-2 - [CSRF] Check failed with NoTokenInBody for /students/create
+2018-04-17 15:40:25,425 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m29s346ms).
+2018-04-17 15:56:24,074 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m28s646ms).
+2018-04-17 15:58:33,309 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m39s230ms).
+2018-04-17 16:00:45,652 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m42s336ms).
+2018-04-17 16:05:56,613 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m40s955ms).
+2018-04-17 16:18:56,415 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s746ms), soft-evicting connections from pool.
+2018-04-17 17:14:10,188 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-13 - [CSRF] Check failed because no or invalid token found in body for /students/create
+2018-04-17 17:14:10,188 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-13 - [CSRF] Check failed with NoTokenInBody for /students/create
+2018-04-17 17:14:35,553 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-13 - [CSRF] Check failed because no or invalid token found in body for /students/update
+2018-04-17 17:14:35,553 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-13 - [CSRF] Check failed with NoTokenInBody for /students/update

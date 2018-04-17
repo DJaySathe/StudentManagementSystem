@@ -1,0 +1,15 @@
+@(student : Student)
+
+<html>
+
+    <title> @student.getName()</title>
+
+    <body>
+        <h1> @student.getName() </h1>
+        <p>Date of birth : @student.getDateOfBirth()</p>
+        <p>Contact : @student.getContact()</p>
+
+        <a href="@routes.StudentController.edit(student.getId())">Edit</a>
+        <a href="@routes.StudentController.delete(student.getId())">Delete</a>
+    </body>
+</html>

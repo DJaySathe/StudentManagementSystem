@@ -1,0 +1,20 @@
+@(studentForm : Form[Student])
+@import helper._
+
+<html>
+
+    <title> Edit Student Details</title>
+
+    <body>
+
+        <h1> Edit Student Details </h1>
+        @helper.form(action = routes.StudentController.update()){
+        @helper.inputText(studentForm("id"))
+        @helper.inputText(studentForm("name"))
+        @helper.inputDate(studentForm("dateOfBirth"))
+        @helper.inputText(studentForm("contact"))
+
+        <input type="submit" value="update"/>
+        }
+    </body>
+</html>

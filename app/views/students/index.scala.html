@@ -1,0 +1,17 @@
+@(students : Set[Student])
+
+<html>
+
+    <title> All Students </title>
+    <body>
+    <link rel="stylesheet" href="@routes.Assets.versioned("bootstrap/css/bootstrap.css")">
+    <script type='text/javascript' src='@routes.Assets.versioned("bootstrap/js/bootstrap.js")'></script>
+        <h1>Students</h1>
+        @for(student <- students){
+            <a href="@routes.StudentController.getStudentById(student.getId())">@student.getName()</a>
+            <p>Date of birth : @student.getDateOfBirth()</p>
+            <p>Contact : @student.getContact()</p>
+        }
+        <a href="@routes.StudentController.add()">Add new Student</a>
+    </body>
+</html>
